@@ -1,3 +1,133 @@
+
 * {
+  box-sizing: border-box;
+  padding: 0;
   margin: 0;
+}
+ul {
+  list-style: none;
+}
+
+body {
+  width: 100%;
+  color: #474646;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.header-logo img {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  box-shadow: 0 0 6px rgba(26, 9, 9, 0.5);
+  padding: 3px;
+  margin: 10px auto;
+}
+
+h2 {
+  color: #dab55e;
+}
+
+
+.col-left {
+  width: 40%;
+  background-color: rgb(237, 251, 251) ;
+  padding: 10px 30px;
+  justify-content: center;
+}
+
+.col-right {
+  width: 60%;
+  padding: 0 30px;
+}
+
+.header-title {
+  padding: 30px 0;
+  margin-top: 60px;
+  font-size: 40px;
+}
+.main {
+  display: flex;
+}
+
+i {
+  font-size: 12px;
+  background-color: #dab55e;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.section-title, .contacts, .skills, .main-title, .about, .education {
+  padding-bottom: 30px;
+}
+
+.section-block {
+  display: flex;
+}
+.section-pic {
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.location {
+  background-image: url(../rsschool-cv/img/location.svg);
+}
+.telegram {
+  background-image: url(../rsschool-cv/img/telegram.svg);
+}
+.discord {
+  background-image: url(../rsschool-cv/img/discord.svg);
+}
+.github {
+  background-image: url(../rsschool-cv/img/github.svg);
+}
+
+.english {
+  background-image: url(../rsschool-cv/img/english.svg);
+}
+.spanish {
+  background-image: url(../rsschool-cv/img/spain.svg);
+}
+
+.footer {
+  background-color: lightcyan;
+  text-align: center;
+  padding: 10px;
+
+}
+
+.footer-block {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+}
+.footer-pic {
+  width: 100px;
+  margin: 0;
+  padding: 20px;
+}
+.footer-link {
+  padding: 20px;
+}
+.year {
+  padding: 20px;
 }
