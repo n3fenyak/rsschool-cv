@@ -1,7 +1,3 @@
-@font-face {
-  font-family: Lato;
-   src: url("../rsschool-cv/assets/fonts/Lato/Lato-Regular.ttf");
- }
 
 * {
   box-sizing: border-box;
@@ -12,92 +8,24 @@ ul {
   list-style: none;
 }
 
-li {
-  display: list-item;
-}
-
-a {
-  text-decoration: none;
-  color: #474646;
-}
-
-a:hover {
-  color: #dab55e;
-  transition: .4s;
-}
-
-h2 {
-  color: #dab55e;
-}
-
-p {
- margin-bottom: 10px;
-}
-
 body {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  width: 100%;
   color: #474646;
-  font-size: 18px;
-  font-family: 'Lato', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.header {
- background-color: #6a6276;
-}
-
-.header a {
-  color: #fff;
-}
-
-.container {
-  max-width: 1440px;
+.wrapper {
+  max-width: 1200px;
   margin: 0 auto;
 }
 
-.section {
-  width: 50%;
-  padding: 10px;
-  padding-bottom: 30px;
-}
-
-.section-profile {
-  display: flex;
-  justify-content: space-around;
+.header {
   width: 100%;
-}
-
-.section-profile-info {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-  text-align: center;
-  text-transform: uppercase;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
 }
-
-.section img {
-  width: 20%;
-  display: flex;
-  border-radius: 50%;
-  box-shadow: 0 0 6px #dab55e;
-  padding: 3px;
-}
-
-.section-pic {
-  background-position: center left;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 20px;
-  height: 20px;
-  margin-right: 10px;
-}
-
-.section-item {
-  display: flex;
-}
-
 .header-logo img {
   width: 60%;
   display: flex;
@@ -108,100 +36,98 @@ body {
   margin: 10px auto;
 }
 
-.nav-list {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  min-height: 60px;
+h2 {
+  color: #dab55e;
+}
+
+
+.col-left {
+  width: 40%;
+  background-color: rgb(237, 251, 251) ;
+  padding: 10px 30px;
+  justify-content: center;
+}
+
+.col-right {
+  width: 60%;
+  padding: 0 30px;
+}
+
+.header-title {
+  padding: 30px 0;
+  margin-top: 60px;
+  font-size: 40px;
 }
 .main {
   display: flex;
 }
 
-.main-container {
+i {
+  font-size: 12px;
+  background-color: #dab55e;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.section-title, .contacts, .skills, .main-title, .about, .education {
+  padding-bottom: 30px;
+}
+
+.section-block {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
 }
-
-.profile-title, .section-title, .contacts, .skills, .main-title, .about, .education {
-  padding-bottom: 20px;
-  padding-left: 30px;
-}
-
 .section-pic {
   background-position: center left;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 24px;
-  height: 24px;
+  width: 20px;
+  height: 20px;
   margin-right: 10px;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.section-item {
-  margin-bottom: 10px;
 }
 
 .location {
-  background-image: url(../rsschool-cv/assets/img/Loc.svg);
-}
-.email {
-  background-image: url(../rsschool-cv/assets/img/mail.svg);
+  background-image: url(../rsschool-cv/img/location.svg);
 }
 .telegram {
-  background-image: url(../rsschool-cv/assets/img/telegram.svg);
+  background-image: url(../rsschool-cv/img/telegram.svg);
 }
 .discord {
-  background-image: url(../rsschool-cv/assets/img/discord.svg);
+  background-image: url(../rsschool-cv/img/discord.svg);
 }
 .github {
-  background-image: url(../rsschool-cv/assets/img/github.svg);
+  background-image: url(../rsschool-cv/img/github.svg);
 }
-.web-dev {
-  background-image: url(../rsschool-cv/assets/img/wd.png);
-}
-.js {
-  background-image: url(../rsschool-cv/assets/img/js.png);
-}
-.sql {
-  background-image: url(../rsschool-cv/assets/img/sql.png);
-}
-.git {
-  background-image: url(../rsschool-cv/assets/img/git.png);
-}
+
 .english {
-  background-image: url(../rsschool-cv/assets/img/english.png);
+  background-image: url(../rsschool-cv/img/english.svg);
 }
 .spanish {
-  background-image: url(../rsschool-cv/assets/img/spain.png);
+  background-image: url(../rsschool-cv/img/spain.svg);
 }
 
 .footer {
-  background-color: #6a6276;
+  background-color: lightcyan;
   text-align: center;
   padding: 10px;
-  color: #fff;
-}
-.footer a {
-  color: #fff;
+
 }
 
-.footer a:hover {
-  color: #dab55e;
-  transition: .4s;
-}
-
-.footer-list {
+.footer-block {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  min-height: 40px;
-}
+  justify-content: center;
+  text-align: center;
 
+}
 .footer-pic {
-  width: 150px;
+  width: 100px;
   margin: 0;
+  padding: 20px;
+}
+.footer-link {
+  padding: 20px;
+}
+.year {
   padding: 20px;
 }
