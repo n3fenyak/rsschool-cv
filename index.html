@@ -5,123 +5,158 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>My CV</title>
+	<link rel="icon" href="assets/favicon/favicon.png">
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-<article class="wrapper">
 	<header class="header">
-		<div class="col-left">
-			<div class="header-logo">
-				<img src="img/my-photo.jpg" alt="avatar-logo">
-			</div>
-		</div>
-		<div class="col-right">
-			<h1 class="header-title">Nikita Fenyak</h1>
-			<h3 class="header-subtitle">Frontend developer</h3>
-			<p class="header-greeting">Hey everyone! I am future frontend developer! I study HTML, CSS & JavaScript 
-			</div>
-	</header>
-	<div class="main">
-		<div class="col-left">
-			<section class="contacts">
-				<h2 class="section-title">Contacts</h2>
-				<ul class="section-wrapper">
-					<li class="section-block">
-						<div class="section-pic location"></div>
-						<div class="section-text">Russia, Orenburg</div>
+		<div class="container">
+			<nav class="nav">
+				<ul class="nav-list">
+					<li class="nav-item">
+						<a href="#Contacts" class="nav-link">Contacts</a>
 					</li>
-					<li class="section-block">
+					<li class="nav-item">
+						<a href="#My skills" class="nav-link">Skills</a>
+					</li>
+					<li class="nav-item">
+						<a href="#My education" class="nav-link">Education</a>
+					</li>
+					<li class="nav-item">
+						<a href="#Self-education" class="nav-link">Self-education</a>
+					</li>
+					<li class="nav-item">
+						<a href="#Foreign Languages " class="nav-link">Languages</a>
+					</li>
+					<li class="nav-item">
+						<a href="#About Me" class="nav-link">About Me</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<main class="main">
+		<div class="container main-container">
+			<section class="section section-profile">
+				<img src="assets/img/my-photo.jpg" class="profile-img" alt="my photo">
+				<div class="section-profile-info">
+					<h1 class="profile-title">nikita fenyak</h1>
+					<h2 class="section-subtitle">frontend developer</h2>
+				</div>
+			</section>
+			<section class="section">
+				<h2 class="section-title">Contacts</h2>
+				<ul class="section-list">
+					<li class="section-item">
+						<div class="section-pic location"></div>
+						<div class="section-text">Orenburg, Russia</div>
+					</li>
+					<li class="section-item">
+						<div class="section-pic email"></div>
+						<div class="section-text">
+							<a href="mailto:ne.fenyak@gmail.com" title="email">ne.fenyak@gmail.com</a>
+						</div>
+					</li>
+					<li class="section-item">
 						<div class="section-pic telegram"></div>
 						<div class="section-text">
-							<a href="https://t.me/nefenyak" target="_blank" class="contact__link">nefenyak</a>
+							<a href="https://t.me/nefenyak" target="_blank">nefenyak</a>
 						</div>
 					</li>
-					<li class="section-block">
+					<li class="section-item">
 						<div class="section-pic discord"></div>
 						<div class="section-text">
-							<a href="#" target="_blank" class="contact__link">n3fenyak</a>
+							<a href="https://discord.gg/ctnA9ZZ8" target="_blank">nefenyak</a>
 						</div>
 					</li>
-					<li class="section-block">
+					<li class="section-item">
 						<div class="section-pic github"></div>
 						<div class="section-text">
-							<a href="https://github.com/n3fenyak" target="_blank" class="contact__link">n3fenyak</a>
+							<a href="https://github.com/n3fenyak" target="_blank">n3fenyak</a>
 						</div>
 					</li>
 				</ul>
 			</section>
-			<section class="skills">
+			<section class="section">
+				<h2 class="section-title">About Me</h2>
+				<p class="section-text">
+					Hey everyone! I'm future frontend developer! I study HTML, CSS & JavaScript
+					I’m the head of the technical support team. I’ve a high client experience of interaction between business and client.
+					Knowledge and understanding of ITSM principles. Practical experience of SLA development. I have got knowledge of web standards, and I also strive for an in-depth study of programming.</p>
+			</section>
+			<section class="section">
 				<h2 class="section-title">My skills</h2>
-				<ul class="section-wrapper">
-					<li class="section-block">
-						<div class="section-pic html"></div>
-						<div class="section-text">HTML</div>
+				<ul class="section-list">
+					<li class="section-item">
+						<div class="section-pic web-dev"></div>
+						<div class="section-text">HTML & CSS</div>
 					</li>
-					<li class="section-block">
-						<div class="section-pic css"></div>
-						<div class="section-text">CSS</div>
-					</li>
-					<li class="section-block">
+					<li class="section-item">
 						<div class="section-pic js"></div>
-						<div class="section-text">JS (Basic)</div>
+						<div class="section-text">JavaScript (Basic)</div>
 					</li>
-					<li class="section-block">
+					<li class="section-item">
 						<div class="section-pic sql"></div>
 						<div class="section-text">SQL (Basic)</div>
 					</li>
-					<li class="section-block">
+					<li class="section-item">
 						<div class="section-pic git"></div>
 						<div class="section-text">Git</div>
 					</li>
 				</ul>
 			</section>
-			<section class="languages">
-				<h2 class="section-title">Foreign languages</h2>
-				<ul class="section-wrapper">
-					<li class="section-block">
+			<section class="section">
+				<h2 class="section-title">Education</h2>
+				<p class="section-text">Orenburg State University, profile «Computer aided design systems»., Engineer</p>
+				<p class="section-text">Orenburg State University, Cisco Networking Academy - CISCO CCNA, Network Engineer</p>
+			</section>
+			<section class="section">
+				<h2 class="section-title">Foreign Languages</h2>
+				<ul class="section-list">
+					<li class="section-item">
 						<div class="section-pic english"></div>
-						<div class="section-text">English (B1) </div>
+						<div class="section-text">English (B1)</div>
 					</li>
-					<li class="section-block">
+					<li class="section-item">
 						<div class="section-pic spanish"></div>
-						<div class="section-text">Spanish (A1) </div>
+						<div class="section-text">Spain (A1)</div>
+					</li>
+				</ul>
+			</section>
+			<section class="section">
+				<h2 class="section-title">Self-education</h2>
+				<ul class="section-list">
+					<li class="section-item">
+						<div class="section-text">Course: YouTube - CS50</div>
+					</li>
+					<li class="section-item">
+						<div class="section-text">Course: Udemy - JavaScript, React, Algorithms and Data Structure</div>
+					</li>
+					<li class="section-item">
+						<div class="section-text">Course: LanguageLink - Cambridge English, B1</div>
 					</li>
 				</ul>
 			</section>
 		</div>
-		<div class="col-right">
-			<section class="about">
-				<h2 class="main-title">About Me</h2>
-				<p class="about-text">I’m the head of the technical support team. I’ve a high client experience of interaction between business and client.
-					Knowledge and understanding of ITSM principles. Practical experience of SLA development.
-					
-					I have got knowledge of web standards, and I also strive for an in-depth study of programming.</p>
-			</section>
-			<section class="education">
-				<h2 class="main-title">My education</h2>
-				<ul>
-					<li class="university">
-						<p>Orenburg State University, profile «Computer aided design systems»., Engineer</p>
-						<p>Orenburg State University, Cisco Networking Academy - CISCO CCNA, Network Engineer</p>
-					</li>
+	</main>
 
-					<li class="university">Course: YouTube - CS50</li>
-					<li class="university">Course: Udemy - JavaScript, React, Algorithms and Data Structure</li>
-					<li class="university">Course: LanguageLink - Cambridge English, A2</li>
-
-				</ul>
-			</section>
-		</div>
-	</div>
 	<footer class="footer">
-		<div class="footer-block">
-				<a class="footer-link" href="https://github.com/n3fenyak" target="_blank">n3fenyak github</a>
-				
-				<img src="img/rs_school_js.svg" class="footer-pic" alt="rs-school logo"> 
-				<a class="footer-link" href="https://rs.school/js/" >RS-School Stage-0 </a> <p class="year">2023</p></div>		
+		<div class="container footer-container">
+				<ul class="footer-list">
+					<li class="footer-item">
+						<p>2023</p>
+					</li>
+					<li class="footer-item">
+						<a class="footer-link" href="https://github.com/n3fenyak" target="_blank">n3fenyak</a>
+					</li>
+					<li class="footer-item">
+						<a href="https://rs.school/js/" target="_blank">
+							<img src="assets//img/rs_school_js.svg" class="footer-pic" alt="rs-school logo">
+						</a>
+					</li>
+				</ul>
+		</div>
 	</footer>
-</article>
-		
-
-<link rel="stylesheet" href="style.css">
 </body>
 </html>
