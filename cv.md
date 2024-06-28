@@ -5,10 +5,10 @@
 
 ### Contact information:
 
-**Location:** Russia, Moscow
-**E-mail:** ne.fenyak@gmail.com
-**Telegram:** [nefenyak](https://t.me/nefenyak)
-**GitHub:** [n3fenyak](https://github.com/n3fenyak)
+**Location:** Russia, Moscow<br>
+**E-mail:** ne.fenyak@gmail.com<br>
+**Telegram:** [nefenyak](https://t.me/nefenyak)<br>
+**GitHub:** [n3fenyak](https://github.com/n3fenyak)<br>
 
 ---
 
