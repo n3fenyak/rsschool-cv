@@ -4,12 +4,148 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CV</title>
+  <title>CV - Nikita Fenyak</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <h1>rsschool</h1>
+  <div class="container">
+    <header class="header">
+      <div class="header-inner__left">
+        <h1 class="profile-title">Nikita Fenyak</h1>
+        <p class="profile-subtitle">Frontend Developer</p>
+
+        <div class="contacts-info">
+          <ul>
+            <li>
+              <span>E-mail:</span>
+              <a href="mailto:ne.fenyak@gmail.com">ne.fenyak@gmail.com</a>
+            </li>
+            <li>
+              <span>Telegram:</span>
+              <a href="https://t.me/nefenyak" target="_blank" rel="noopener noreferrer">
+                nefenyak
+              </a>
+            </li>
+            <li>
+              <span>GitHub:</span>
+              <a href="https://github.com/n3fenyak" target="_blank" rel="noopener noreferrer">
+                n3fenyak
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <nav class="nav">
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="header-inner__right">
+        <img src="assets/avatar.jpg" class="profile-img" alt="avatar">
+      </div>
+    </header>
+
+    <main class="content">
+      <section class="about" id="about">
+        <h2>About Me</h2>
+
+        <p class="about-me">
+          I am currently studying frontend development.
+        </p>
+
+        <p class="about-me">
+          My goal is to improve my skills
+          and gain more experience in real-world frontend development.
+        </p>
+      </section>
+
+      <section class="skills" id="skills">
+        <h2>Skills</h2>
+
+        <ul>
+          <li>HTML, CSS</li>
+          <li>JavaScript, TypeScript, React</li>
+          <li>Git, GitHub, VS Code, Figma</li>
+        </ul>
+      </section>
+
+      <section class="experience" id="experience">
+        <h2>Experience</h2>
+        <h3>SkillSwap — Team Project</h3>
+
+        <p>
+          SkillSwap is a team educational project developed as part
+          of the Yandex Practicum course.
+        </p>
+
+        <p>
+          Developed reusable React components, authentication states,
+          user skills and exchange request UI.
+        </p>
+
+        <p>
+          Worked in a team using TypeScript, Git, GitHub,
+          Pull Requests and code review.
+        </p>
+
+        <a href="https://github.com/n3fenyak/SkillSwap_55_1" target="_blank" rel="noopener noreferrer">
+          SkillSwap on GitHub
+        </a>
+      </section>
+
+      <section class="code-example">
+        <h2>Code Example</h2>
+
+        <pre><code>function multiply(a, b) {
+  return a * b;
+}</code></pre>
+      </section>
+
+      <section class="education" id="education">
+        <h2>Education</h2>
+
+        <ul>
+          <li>Yandex Practicum — Frontend Developer</li>
+          <li>RS School — JavaScript / Front-end</li>
+        </ul>
+      </section>
+
+      <section class="languages">
+        <h2>Languages</h2>
+
+        <ul>
+          <li>Russian — Native</li>
+          <li>English — B1 Intermediate</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <ul class="footer-list">
+        <li class="footer-item">
+          <a href="https://github.com/n3fenyak" target="_blank" rel="noopener noreferrer">
+            n3fenyak
+          </a>
+        </li>
+
+        <li class="footer-item">
+          <p>2026</p>
+        </li>
+
+        <li class="footer-item">
+          <a href="https://rs.school/" target="_blank" rel="noopener noreferrer">
+            <img src="assets/rs_school_logo.svg" class="footer-pic" alt="RS School logo">
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </div>
 </body>
 
 </html>
